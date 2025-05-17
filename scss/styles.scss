@@ -446,7 +446,8 @@ footer {
 */
 
 #about {
-    padding: 75px 15px;
+    padding: 50px 15px;
+    text-align: center;
     border-bottom: 1px solid $border;
 
     h2 {
@@ -998,4 +999,15 @@ footer {
         }
     }
 
+}
+
+.profile-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid $base-color;
+    float: left;
+    margin-right: 20px;
+    margin-left: 0;
+    margin-bottom: 20px;
 }
